@@ -19,6 +19,17 @@ function Navbar() {
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                         </Link>
+                        <Link to={'/Form'}>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Form</a>
+                            </li>
+                        </Link>
+                        <Link to={'/Student'}>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Student List</a>
+                            </li>
+                        </Link>
+
                         <Link to={'/Dashboard'}>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Dashboard</a>
@@ -29,27 +40,17 @@ function Navbar() {
                                 <a class="nav-link" href="#">Pricing</a>
                             </li>
                         </Link>
-                        <Link to={'/Contact'}>
+                        {/* <Link to={'/Contact'}>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
-                        </Link>
+                        </Link> */}
                         <Link to={'/Hooks'}>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Hooks</a>
                             </li>
                         </Link>
-                        <Link to={'/Form'}>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Form</a>
-                            </li>
-                        </Link>
-                        <Link to={'/Student'}>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Student</a>
-                            </li>
-                        </Link>
-
+                       
 
                         {/* <li class="nav-item">
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>

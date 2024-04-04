@@ -47,7 +47,7 @@ function App() {
             <Route path='Profile' element={<Profile></Profile>} />
           </Route>
           <Route path='/Price' element={<Price></Price>} />
-          <Route path='/Contact' element={<Contact></Contact>} />
+          {/* <Route path='/Contact' element={<Contact></Contact>} /> */}
           <Route path='/Hooks' element={<Hooks></Hooks>} />
           <Route path='/Form' element={<Form></Form>} />
           <Route path='/Student' element={<Student></Student>} />
